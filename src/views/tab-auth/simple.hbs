@@ -367,7 +367,7 @@
                 $("#errorSection").css({display:'none'});
                 $("#lblSuccess").text("");
                 $("#successSection").css({display:'none'});
-                if(teamName && GlobalAccessToken)    
+                if(teamName && GlobalAccessToken && teamDesc)    
                 {
                     var SpinnerElements = document.querySelectorAll(".ms-Spinner");
                     for (var i = 0; i < SpinnerElements.length; i++) {
@@ -430,7 +430,9 @@
                         $("#lblError").append("Error: Please Sign In Before Creating Team. ");
                     if(!teamName)
                         $("#lblError").append("Team Name is required. ");                                        
-                        $("#errorSection").slideDown();
+                    if(!teamDesc)
+                        $("#lblError").append("Team Desc is required. ");    
+                    $("#errorSection").slideDown();
                 }
             }
 
