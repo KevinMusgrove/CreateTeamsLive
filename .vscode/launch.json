@@ -14,7 +14,7 @@
             "sourceMaps": true,
             "outFiles": [ "${workspaceRoot}/build/**/*.js" ],
             "env": {
-                "BASE_URI": "https://create-teams.azurewebsites.net",
+                "BASE_URI": "https://create-ms-teams.azurewebsites.net",
                 "MICROSOFT_APP_ID": "01a7e289-c9ca-4515-a12c-4c3cb7752fcd",
                 "MICROSOFT_APP_PASSWORD": "_P4tX-u3?EEASJHThIFTs4]soMGDILf2",
                 "LUIS_ENDPOINT_URI": "",
@@ -40,7 +40,7 @@
             "sourceMaps": true,
             "outFiles": [ "${workspaceRoot}/build/**/*.js" ],
             "env": {
-                "BASE_URI": "https://create-teams.azurewebsites.net",
+                "BASE_URI": "https://create-ms-teams.azurewebsites.net",
                 "MICROSOFT_APP_ID": "01a7e289-c9ca-4515-a12c-4c3cb7752fcd",
                 "MICROSOFT_APP_PASSWORD": "_P4tX-u3?EEASJHThIFTs4]soMGDILf2",
                 "LUIS_ENDPOINT_URI": "",
@@ -67,7 +67,7 @@
             "sourceMaps": true,
             "outFiles": [ "${workspaceRoot}/build/**/*.js" ],
             "env": {
-                "BASE_URI": "https://create-teams.azurewebsites.net",
+                "BASE_URI": "https://create-ms-teams.azurewebsites.net",
                 "MICROSOFT_APP_ID": "01a7e289-c9ca-4515-a12c-4c3cb7752fcd",
                 "MICROSOFT_APP_PASSWORD": "_P4tX-u3?EEASJHThIFTs4]soMGDILf2",
                 "LUIS_ENDPOINT_URI": "",
@@ -95,7 +95,7 @@
             "sourceMaps": true,
             "outFiles": [],
             "env": {
-                "BASE_URI": "https://create-teams.azurewebsites.net",
+                "BASE_URI": "https://create-ms-teams.azurewebsites.net",
                 "MICROSOFT_APP_ID": "01a7e289-c9ca-4515-a12c-4c3cb7752fcd",
                 "MICROSOFT_APP_PASSWORD": "_P4tX-u3?EEASJHThIFTs4]soMGDILf2",
                 "LUIS_ENDPOINT_URI": "",
