@@ -25,14 +25,14 @@
   "accentColor": "#0079bf",
   "configurableTabs": [
     {
-      "configurationUrl": "https://create-teams.azurewebsites.net/tab/tabConfig/index.html",
+      "configurationUrl": "https://create-ms-teams.azurewebsites.net/tab/tabConfig/index.html",
       "canUpdateConfiguration": false,
       "scopes": [ "team", "groupchat" ]
     }
   ],
   "staticTabs": [
     {
-      "contentUrl": "https://create-teams.azurewebsites.net/tab-auth/simple",
+      "contentUrl": "https://create-ms-teams.azurewebsites.net/tab-auth/simple",
       "entityId": "simpleAuth",
       "name": "Create Team",
       "scopes": [
@@ -66,6 +66,6 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "create-teams.azurewebsites.net"
+    "create-ms-teams.azurewebsites.net"
   ]
 }
