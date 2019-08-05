@@ -5,7 +5,7 @@ $(document).ready(function () {
     microsoftTeams.initialize();
     microsoftTeams.settings.registerOnSaveHandler(function (saveEvent) {
         microsoftTeams.settings.setSettings({
-            suggestedDisplayName: "Bot Info",
+            suggestedDisplayName: "Create Team",
             contentUrl: createTabUrl(),
             entityId: "test123",
             websiteUrl: createTabUrl(),
