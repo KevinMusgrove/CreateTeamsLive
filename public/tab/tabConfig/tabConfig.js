@@ -17,5 +17,5 @@ $(document).ready(function () {
 });
 
 function createTabUrl() {
-    return window.location.protocol + "//" + window.location.host + "/default";
+    return window.location.protocol + "//" + window.location.host + "/tab-auth/simple";
 }
